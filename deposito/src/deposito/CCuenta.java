@@ -7,16 +7,18 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
+    private float cantidad;
 
     public CCuenta()
     {
     }
 
-    public CCuenta(String nom, String cue, double sal, double tipo)
+    public CCuenta(String nom, String cue, double sal, double tipo, float cant)
     {
         setNombre(nom);
         setCuenta(cue);
         setSaldo(sal);
+        setEntrada(cant);
     }
 
     public double estado()
