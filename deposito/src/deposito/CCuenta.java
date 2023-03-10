@@ -1,5 +1,10 @@
 package deposito;
-
+/**
+ * 
+ * @author pablo
+ * @since 10 de marzo de 2023
+ * 
+ */
 public class CCuenta {
 
 
