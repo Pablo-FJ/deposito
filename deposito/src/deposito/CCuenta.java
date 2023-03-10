@@ -18,10 +18,15 @@ public class CCuenta {
         setNombre(nom);
         setCuenta(cue);
         setSaldo(sal);
-        setEntrada(cant);
+        setCantidad (cant);
     }
 
-    public double estado()
+    private void setCantidad(float cant) {
+		// TODO Esbozo de método generado automáticamente
+		
+	}
+
+	public double estado()
     {
         return getSaldo();
     }
